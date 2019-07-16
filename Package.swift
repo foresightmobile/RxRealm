@@ -4,10 +4,13 @@ import Foundation
 
 let package = Package(
 	name: "RxRealm",
+    products: [
+        .library(name: "Pod", targets: ["Pod"])
+    ],
 	dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .branch("master")),
 	],
     targets: [
-        .target(name: "RxRealm", path: ".", sources: ["RxRealm"]),
+        .target(name: "Pod", path: ".", sources: ["Pod"]),
     ]
 )
