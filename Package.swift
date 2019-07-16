@@ -8,6 +8,6 @@ let package = Package(
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .branch("master")),
 	],
     targets: [
-        .target(name: "RxRealm"),
+        .target(name: "RxRealm", dependencies: ["RxSwift"], path: ".", sources: ["RxRealm"]),
     ]
 )
