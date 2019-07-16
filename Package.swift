@@ -1,9 +1,9 @@
-//swift-tools-version: 4.0.0
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
 	name: "RxRealm",
 	dependencies: [
-		.Package(url: "https://github.com/ReactiveX/RxSwift.git", majorVersion: 5, minor: 0),
+		.package(url: "https://github.com/ReactiveX/RxSwift.git", majorVersion: 5, minor: 0),
 	]
 )
