@@ -11,6 +11,6 @@ let package = Package(
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .branch("master")),
 	],
     targets: [
-        .target(name: "Pod", path: ".", sources: ["Pod"]),
+        .target(name: "Pod", dependencies: ["RxSwift"], path: ".", sources: ["Pod"]),
     ]
 )
