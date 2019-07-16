@@ -2,6 +2,24 @@
   "object": {
     "pins": [
       {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": "tg/spm",
+          "revision": "fc6ec59ad84045542f022bf5d8f38823f9b4318e",
+          "version": null
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": "master",
+          "revision": "51932a36200e3a51d07b5ebbaf0a61cb8aa6c371",
+          "version": null
+        }
+      },
+      {
         "package": "RxSwift",
         "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {
